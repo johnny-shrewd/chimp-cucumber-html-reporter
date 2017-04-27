@@ -1,0 +1,33 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "e2e testing environment using chimp and cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "chimp",
+    "cucumber"
+  ],
+  "author": "Johnny Shrewd",
+  "license": "ISC",
+  "dependencies": {
+    "chimp": "*",
+    "cucumber": "*",
+    "body-parser": "*",
+    "browser-sync": "*",
+    "express": "*",
+    "gulp": "*",
+    "gulp-nodemon": "*",
+    "istanbul": "*",
+    "mocha": "*",
+    "mocha-istanbul": "*",
+    "morgan": "*",
+    "run-sequence": "*",
+    "should": "*",
+    "async": "*",
+    "cucumber-html-reporter": "*",
+    "gulp-util": "*"
+  }
+}
